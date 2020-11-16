@@ -1,0 +1,74 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    rgba(0,0,0,0.1),
+    #111
+    );
+    height: 150px;
+
+    justify-content: space-between;
+    transition-timing-function: ease-in;
+    transition: all 0.4s;
+    z-index: 999;
+}
+
+.nav__black{
+  background-color: #111;
+  height: 65px;
+  position: fixed;
+  z-index: 999;
+}
+
+.nav__logo{
+  filter: drop-shadow(1px 1px 0.1px #111);
+  margin-top: 1.1%;
+  margin-left: 3.1%;
+  width: 92.5px;
+  object-fit: contain;
+  position: fixed;
+}
+
+.navLinksHome{
+  object-fit: contain;
+  position: fixed;
+  margin-left: 10.4%;
+  color: #fff;
+  margin-top: 1.3%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navLinks{
+  position: fixed;
+  object-fit: contain;
+  margin-left: 255px;
+  left: 0;
+  color: #fff;
+  margin-top: 1.3%;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.nav__avator{
+  width: 30px;
+  object-fit: contain;
+}
+
+.nav--fadeBottom{
+  height: 7.4rem;
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    rgba(17,17,17,0.5),
+    #111
+    );
+
+  padding-top: 52px;
+  position: fixed;
+
+}

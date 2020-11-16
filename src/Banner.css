@@ -1,0 +1,93 @@
+.banner{
+  color: #fff;
+  object-fit: contain;
+  height: 700px;
+}
+
+.banner_contents{
+  margin-left: 70px;
+  padding-top: 140px;
+  height: 190px;
+  text-align: left;
+}
+
+.banner_title{
+  font-size: 3.5rem;
+  font-weight: 800;
+  padding-bottom: 0rem;
+  filter: drop-shadow(1px 1px 1px #111);
+  z-index: 0;
+}
+
+.banner_description{
+  filter: drop-shadow(1px 1px 1px #111);
+  width: 45rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  max-width: 650px;
+  margin-bottom: 0%;
+  background-color: rgba(17,17,17, 0.6);
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  border-radius: 4px;
+  z-index: 0;
+}
+
+.banner_button{
+  cursor: pointer;
+  color: #111;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size: 20.148px;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 0.5rem;
+  padding-top: 0.5rem;
+  margin-top: 2%;
+  border-radius: 4px;
+  padding-bottom: 0.5rem;
+  margin-bottom: -0%;
+  background-color: #fff;
+  filter: drop-shadow(1px 1px 1px #fff);
+}
+
+.banner_button:hover{
+  color: #fff;
+  background-color: rgba(255,0,0,0.6);
+  transition: all 0.15s;
+  filter: drop-shadow(1px 1px 1px red);
+
+}
+
+.info{
+  color: #fff;
+  background: #6D6D6EB3;
+  filter: drop-shadow(1px 1px 1px #111);
+
+}
+
+.info:hover{
+  background-color: rgba(109,109,110,0.4);
+}
+
+.banner--fadeBottom{
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(17,17,17,0.5),
+    #111
+    );
+
+  padding-top: 252px;
+
+}
+
+.banner h1{
+
+}
