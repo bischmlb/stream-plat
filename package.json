@@ -1,8 +1,8 @@
 {
-  "name": "netflix-clone",
+  "name": "stream-plat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bischmlb.github.io/stream-plat"
+  "homepage": "http://bischmlb.github.io/stream-plat",
   "dependencies": {
     "-": "^0.0.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
